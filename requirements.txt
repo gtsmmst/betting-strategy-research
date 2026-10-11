@@ -1,0 +1,2 @@
+# Intentionally empty: every script in this repository uses only the Python standard library
+# (argparse, json, math, random, re, statistics, urllib, datetime). Python 3.9 or newer.

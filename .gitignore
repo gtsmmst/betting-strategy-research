@@ -1,0 +1,25 @@
+# virtual environments
+venv/
+.venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+
+# secrets
+.env
+
+# raw / rebuilt data and API caches (only data/samples and the Polymarket yield dataset are tracked)
+data/raw/
+**/data/raw/
+apifb_cache/
+poly_cache/
+
+# logs produced by the scanners
+*.log
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
